@@ -1,0 +1,22 @@
+
+    table {
+      border-style: ridge;
+      border: 1
+    }
+body {
+    background-color: #cbe2b0;
+}
+h1 {
+    color : #084177
+}
+
+.hline {
+    border-style: ridge;  
+    width: 80%;
+    height: 1px;
+    background-color: royalblue;
+}
+
+img {
+    background-color: red;
+}
