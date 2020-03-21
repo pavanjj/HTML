@@ -1,22 +1,24 @@
 
-    table {
-      border-style: ridge;
-      border: 1
-    }
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 body {
     background-color: #cbe2b0;
 }
-h1 {
-    color : #084177
+.Name,.credentials {
+    color : #084177;
+    padding-left: 10px;
+    padding-right:10px
 }
 
 .hline {
     border-style: ridge;  
-    width: 80%;
+    width: 100%;
     height: 1px;
     background-color: royalblue;
 }
 
-img {
-    background-color: red;
+.circularImage {
+    border-radius: 100%;
 }
