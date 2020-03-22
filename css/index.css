@@ -9,9 +9,19 @@ body {
 .Name,.credentials {
     color : #084177;
     padding-left: 10px;
-    padding-right:10px
+    padding-right:10px;
+    text-align:center;
+    font-family: Cambria;    
 }
 
+.introduction{
+    border-spacing: 0px;
+    margin-top: 0px;
+    border-top-width: 0px;    
+}
+.top-div{
+    margin-top: 0px;
+}
 .hline {
     border-style: ridge;  
     width: 100%;
@@ -21,4 +31,33 @@ body {
 
 .circularImage {
     border-radius: 100%;
+}
+
+.contactImage,.aboutMeImage{
+    position:fixed;
+    right:0px;
+    height: 50px;
+    width: 150px;    
+}
+
+
+.contactImage{
+    top:100px;    
+}
+.contactImage:hover,.aboutMeImage:hover {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }

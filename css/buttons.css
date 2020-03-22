@@ -1,0 +1,21 @@
+
+
+.contactMePageButton,.HomePageButton { 
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.HomePageButton {
+    position: relative;
+    top: 50px;
+}
+
+
+.contactMePageButton:hover,.HomePageButton:hover { 
+background-color: green;
+}
