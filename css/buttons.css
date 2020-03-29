@@ -7,15 +7,18 @@
   padding: 15px 25px;
   text-align: center;
   font-size: 16px;
-  cursor: pointer;
+  cursor: pointer;  
+  position: absolute;
+  margin-top: 100px;
+}
+
+.contactMePageButton {
+  margin-left: 500px;
 }
 
 .HomePageButton {
-    position: relative;
-    top: 50px;
+  margin-left: 750px;
 }
-
-
 .contactMePageButton:hover,.HomePageButton:hover { 
-background-color: green;
+background-color:   green;
 }
