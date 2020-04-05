@@ -17,7 +17,7 @@
 }
 
 .HomePageButton {
-  margin-left: 750px;
+  justify-content: center;
 }
 .contactMePageButton:hover,.HomePageButton:hover { 
 background-color:   green;

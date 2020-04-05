@@ -1,9 +1,9 @@
-  .list_heading {
-            font-size: xx-large;
-            margin-bottom : 300px;  
-            padding-bottom: 20px;;
-        }
-        li {
-          margin-top:25px;
-          font-size: x-large;
-        }
+.list_heading {
+    font-size: xx-large;
+    margin-bottom : 300px;  
+    padding-bottom: 20px;;
+}
+li {
+  margin-top:25px;
+  font-size: x-large;
+}

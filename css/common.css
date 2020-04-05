@@ -1,38 +1,13 @@
-
-img {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-body {
-    background-image : url('../img/background-image.jpg')
-}
-.Name,.credentials {
-    color : #084177;
-    padding-left: 10px;
-    padding-right:10px;
-    text-align:center;
-    font-family: Cambria;    
+.bgImage {
+    background-image : url('../img/background-image.jpg');
+    background-size: cover;
 }
 
-.introduction{
-    border-spacing: 0px;
-    margin-top: 0px;
-    border-top-width: 0px;    
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
 }
-.top-div{
-    margin-top: 0px;
-}
-.hline {
-    border-style: ridge;  
-    width: 100%;
-    height: 1px;
-    background-color: royalblue;
-}
-
-.circularImage {
-    border-radius: 100%;
-}
-
 .contactImage,.aboutMeImage{
     position:fixed;
     right:0px;
@@ -40,13 +15,32 @@ body {
     width: 150px;    
 }
 
-
+.HomePageButtonImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 50px;
+    width: 150px;       
+}
 .contactImage{
     top:100px;    
 }
 .contactImage:hover,.aboutMeImage:hover {
     animation: shake 0.5s;
 }
+
+.FullWidthTable{
+    width: auto;
+}
+.standardFont {
+    color : #084177;
+    font-family: Cambria;    
+}
+
+.centerAlignText {
+    text-align:center;
+}
+
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
